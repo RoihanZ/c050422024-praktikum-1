@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 55%;
+}
+
+body{
+  background-image: url('image/background.jpg');
+}
+
+.cont{
+  height: 170px;
+  position: relative;
+  background: white;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.6)),
+    url('image/background.jpg');
+}
+
+.container{
+  position: relative;
+  top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+}
+
+.back-title{
+  background-color: white;
+}
+
+.title-foodcourt{
+  font-size: 30px;
+  font-family: 'Courier New',monospace;
+  line-height: 1.1;
+  color: white;
+  font-style: bold;
+  background-image: url('image/back1.png');
+  border-color: #FFFAFA;
+  border-radius: 10px;
+  border-style: solid;
+  width: 220px;
+  padding: 10px;
+  position: relative;
+  right: 5px;
+}
+
+
+.container img{
+  width: 30%;
+  height: 150px;
+  clip-path: polygon(75% 0, 100% 50%, 100% 100%, 0 100%, 0% 52%, 0 0);
+  background-color: white;
+}
+
+table{
+  position: relative;
+  z-index: 2;
+  top: 10px;
+  left: 25%;
+  width: 50%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #F0F8FF;
+  overflow: hidden;
+  text-align: center;
+}
+
+th{
+  font-family: 'Courier New',monospace;
+  background: #FF6347;
+  color: #fafafa;
+}
+
+td, th{
+  padding: 12px 15px;
+}
+
+td{
+  font-family: Georgia,serif;
+}
+
+tr:nth-child(odd){
+  background-color: #FFDEAD;
+}
+
+.footer-container{
+  position: relative;
+  top: 20px;
+}
+
+.footer{
+  width: 99%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
