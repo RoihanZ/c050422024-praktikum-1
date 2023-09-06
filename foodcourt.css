@@ -7,12 +7,15 @@ html,body{
   height: 55%;
 }
 
-body{
+.background{
   background-image: url('image/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .cont{
-  height: 170px;
+  height: 50px;
   position: relative;
   background: white;
   background-image: linear-gradient(
@@ -23,11 +26,11 @@ body{
 
 .container{
   position: relative;
-  top: 10px;
   align-items: center;
   display: flex;
   justify-content: center;
   opacity: 1;
+  top: 25px;
 }
 
 .back-title{
@@ -40,30 +43,16 @@ body{
   line-height: 1.1;
   color: white;
   font-style: bold;
-  background-image: url('image/back1.png');
-  border-color: #FFFAFA;
-  border-radius: 10px;
-  border-style: solid;
-  width: 220px;
-  padding: 10px;
-  position: relative;
-  right: 5px;
+  position: absolute;
 }
 
-
-.container img{
-  width: 30%;
-  height: 150px;
-  clip-path: polygon(75% 0, 100% 50%, 100% 100%, 0 100%, 0% 52%, 0 0);
-  background-color: white;
-}
 
 table{
   position: relative;
   z-index: 2;
-  top: 10px;
-  left: 25%;
-  width: 50%;
+  top: 25px;
+  left: 20%;
+  width: 60%;
   border-collapse: collapse;
   border-spacing: 0;
   background: #F0F8FF;
@@ -90,8 +79,8 @@ tr:nth-child(odd){
 }
 
 .footer-container{
-  position: relative;
-  top: 20px;
+  position: sticky;
+  top: 100%;
 }
 
 .footer{
