@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  height: 100%;
+}
+
+.background{
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.cont{
+  height: 50px;
+  position: relative;
+  background: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 25px;
+}
+
+.back-title{
+  background-color: white;
+}
+
+.title-foodcourt{
+  font-size: 30px;
+  font-family: 'Courier New',monospace;
+  line-height: 1.1;
+  color: white;
+  font-style: bold;
+  position: absolute;
+}
+
+
+table{
+  position: relative;
+  z-index: 2;
+  top: 25px;
+  left: 20%;
+  width: 60%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: #F0F8FF;
+  overflow: hidden;
+  text-align: center;
+}
+
+th{
+  font-family: 'Courier New',monospace;
+  background: #FF6347;
+  color: #fafafa;
+}
+
+td, th{
+  padding: 12px 15px;
+}
+
+td{
+  font-family: Georgia,serif;
+}
+
+tr:nth-child(odd){
+  background-color: #FFDEAD;
+}
+
+.footer-container{
+  position: sticky;
+  top: 100%;
+}
+
+.footer{
+  width: 99%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+}
